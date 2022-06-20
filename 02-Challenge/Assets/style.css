@@ -19,15 +19,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: rgb(122, 193, 238);
-  color: #fff;
+  background-color: rgb(168, 216, 236);
+  color: rgb(255, 255, 255);
  }
  .nav-links a {
-  color: #fff;
+  color: rgb(250, 251, 253);
  }
  /* LOGO */
  .logo {
   font-size: 32px;
+  font-style: italic;
+  margin-left: 40px;
  }
  /* NAVBAR MENU */
  .menu {
@@ -64,8 +66,45 @@
   text-align: center;
  }
  .dropdown li:hover {
-  background-color: #4c9e9e;
+  background-color: #1725c8;
  }
  .services:hover .dropdown {
   display: block;
+ }
+
+ .jumbotron {
+   height: 40vh;
+   background-image: url("https://broadstonemidtown.com/wp-content/uploads/2018/03/Piedmont-Park-Atlanta-Things-to-Do-1000x500.jpg");
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+ #jumboContent {
+    color: rgb(213, 223, 229);
+ }
+
+ #aboutMe > h3 {
+   margin: 15px;
+   font-size: 18px;
+   padding: 40px;
+ }
+ img {
+   height: 250px;
+   width: 250px;
+ }
+ 
+ #prevWork > h5 {
+  font-family:'Times New Roman', Times, serif;
+  color: grey;
+ }
+
+ #title {
+   font-size: x-large;
+   color: #4c9e9e;
+   font-family:'Times New Roman', Times, serif;
+   padding-top: 15px;
  }
