@@ -18,18 +18,33 @@ grid-template-columns: 300px 1fr;
 }
 #avatar {
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #aboutMe  {
   background: lightblue
 }
-#previousWorks  {
+
+#previousWorksTitle {
   background-color: lightpink;
 }
-#previousWorksTitle {
-  background-color: aqua;
+#work {
+  background-color: white;
+}
+#previousWorksTitle > h1 {
+  font-size: x-large;
+  /* background-color: aqua; */
 }
 #contactMe {
   background-color: lightseagreen ;
   height: 150px;
 }
 
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  
+}
