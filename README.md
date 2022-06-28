@@ -7,3 +7,9 @@ I'm Alex Wilkinson an aspiring software developer. This I my digital portfolio a
 
 ## Bottom half
 ![Screen Shot 2022-06-27 at 9 43 17 PM](https://user-images.githubusercontent.com/106899178/176073064-bc71b8f0-ab9d-4d95-8a84-765128a0f85a.png)
+
+## How to start
+
+1. Clone repo
+2. In VsCode download live server extension.
+3. Go to HTML doc right click open live server 
